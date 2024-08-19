@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+header{
+width: 100vw;
+position: relative;
+z-index: 1;
+
+}
+
+header section.section1{
+    display: flex;
+    justify-content: space-between;
+  padding: 30px;    
+  
+
+}
+
+/* left section1 */
+header section.section1 div.left{
+    
+    width: 300px;
+   
+}
+
+header section.section1 div.left a.leftlogo{
+    text-align:center;
+    text-decoration: none;
+    transition: 1s;
+    position: fixed;
+    
+}
+
+a.leftlogo:hover,a.leftlogo:checked{
+    color:#ff4466;
+}
+
+
+
+header section.section1 div.left a.leftlogo  span.spanleftlogo{
+    font-size: 40px;
+
+}
+
+header section.section1 div.left a.leftlogo span.lefttext{
+    font-size: 25px;
+    font-weight: bold;
+    font-family:sans-serif;
+    position: relative;
+    bottom: 10px;
+    
+}
+
+/* center section1 */
+
+header section.section1 div.center{
+margin: auto;   
+position: relative;
+right:  150px;
+
+}
+
+header section.section1 div.center button.btn{
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+header section.section1 div.center button.btn span.spancenter1{
+    font-weight: bold ;
+    
+}
+
+header section.section1 div.center button.btn span.spancenter2{
+    color: #999999;
+    padding: 5px;
+
+}
+
+header section.section1 div.center button.btn span.spancenter2:hover,button#btnactive2:checked{
+    color: black;
+    background-color: #e8e3e3;
+    border-radius: 20px;
+   
+    
+}
+
+/* right section1 */
+
+header section.section1 div.right{
+position: fixed;
+right: 20px;
+
+}
+
+header section.section1 div.right ul.abc{
+    display: flex;
+   justify-content: space-between;
+   column-gap: 15px;
+}
+
+header section.section1 div.right ul.abc li.rightli{
+    list-style: none;
+}
+
+header section.section1 div.right ul.abc li.rightli button.btnleft{
+    font-size: 15px;
+}
+
+header section.section1 div.right ul.abc li.rightli  button#btnleft1{
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 12px;
+}
+
+header section.section1 div.right ul.abc li.rightli  button#btnleft2{
+    border-radius: 25px;
+    background-color: white;
+    padding: 12px;
+   border: none;
+}
+
+header section.section1 div.right ul.abc li.rightli  button#btnleft3{
+    font-size: 15px;
+    border-radius: 25px;
+    border: none;
+    border-color:1px #9f9999;
+    cursor: pointer;
+    padding: 10px;
+    
+}
+
+header section.section1 div.right ul.abc li.rightli  button#btnleft1:hover{
+    background-color:  #e8e3e3;
+    
+
+}
+
+header section.section1 div.right ul.abc li.rightli  button#btnleft2:hover{
+    background-color: #e8e3e3;   
+}
+
+header section.section1 div.right ul.abc li.rightli  button#btnleft3:hover{
+    box-shadow: 2px 2px 6px silver;
+}
+
+/* header section2 */
+
+
+
+
+
+div.main{
+    width: 57%;
+    height: 70px;
+    position: relative;
+    left: 350px;
+    /* margin-left: 400px; */
+    display:grid ;
+    grid-template-columns: 16rem 9rem 9rem 16rem 3rem;
+    box-sizing: border-box;
+    border: 1px solid rgba(159, 153, 153,0.5);
+    border-radius: 50px; 
+    box-shadow: 1px 1px 6px #999999;
+}
+
+
+   
+   
+    
+
+
+input.input-border{
+    border: none;
+    width: auto;
+    width: 70%;
+    opacity: 0.4;
+
+}
+
+input.input-border:hover,input.input-border:focus{
+    outline: none;
+    background-color: #e0e0e0;
+}
+
+div.a-sec-2{
+     /* margin-left: 50px; */
+    /* margin-bottom: 15px;  */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    /* margin: 10px; */
+    
+}
+
+div.a-sec-2:hover{
+    background-color: #e0e0e0;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+div.button-div-search{
+    position: relative;
+    right: 30px;
+    margin-top: 10px;
+}
+
+button#searchsec-2-{
+    font-size: 30px;
+    padding: 7px;
+    border-radius: 50px;
+    border: none;
+   background-color: #ff4466;
+   color: white;
+}
+
+button#searchsec-2-:hover{
+    background-color: #ac394e;
+}
+
+
+
+
+hr{ /*position: relative;
+    top: 10px; */
+    margin-top: 10px;
+    border: none; /* Remove default border */
+    border-top: 1px solid #ebe6e6; /* Add a custom border color */
+  }
+
+
+
+  div.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100vw;
+    margin-top: 30px;
+    position: relative;
+    z-index: -1;
+
+  }
+  .icon1{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    /* padding: 20px; */
+  }
+
+  .icon1 img{
+    height: 25px;
+    opacity: 1;
+  }
+
+  .icon1:hover{
+    opacity: 0.5;
+  }
+
+  /* image section */
+.imagesec{
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+  div.images{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:1fr 1fr ;
+    grid-row-gap: 20px;
+   
+    
+  }
+
+  div.pics img{
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    transition: 1.5s;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
